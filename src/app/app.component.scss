@@ -1,16 +1,20 @@
 
 .content { 
-    padding: 90px; 
+    padding: 45px; 
   }
   .content1 { 
-    padding: 60px; 
+    padding: 0px; 
   }
   .content2 { 
     padding: 0px;
     position: -ms-page;
   }
+  .content3 { 
+    padding: 0px;
+    position: -ms-page;
+  }
 .content > mat-card { 
-  width: 130px; 
+  width: 60px; 
   position: absolute;
 }
 
@@ -24,7 +28,7 @@
 /* Split the screen in half */
 .split {
     height: 100%;
-    width: 60%;
+    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;

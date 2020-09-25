@@ -1,25 +1,27 @@
-<div class="content2" style="background-color:rgb(183, 209, 203)">
-
-  <div class="content1" align="right"  > 
-    <h1 style="color:red">Score </h1>
-    <h1 style="color:black">{{score1}}</h1>
-  </div>
-  <div class="content1" align="right"  >
-    <button mat-raised-button (click)="startorstop()">
-      <h1 style="color:black">{{buttonstate}}</h1>
-    </button>
-  </div>
-  <div class="content1" align="right"  >
-      <h1 style="color:yellow">user high score : {{userscore}}</h1>
-  </div>
- 
-</div>
 
 
 
 
-<div class="split left">
+<div class="split left" align="center">
   <div class="centered">
+    <div class="content1" align="center"  >
+        <h1 style="color:black">Burst-it game by HEMANTH SAGAR</h1>
+    </div>
+    <div class="content2" style="background-color:rgb(183, 209, 203)">
+
+      <div class="content1" align="center"  > 
+        <h1 style="color:red">Score : {{score1}}</h1>
+      </div>
+      <div class="content1" align="center"  >
+        <button mat-raised-button (click)="startorstop()">
+          <h1 style="color:black">{{buttonstate}}</h1>
+        </button>
+      </div>
+      <div class="content1" align="center"  >
+          <h1 style="color:yellow">user high score : {{userscore}}</h1>
+      </div>
+     
+    </div>
     <table>
       <tr>
         <th>
@@ -132,6 +134,8 @@
 
   </div>
 </div>
+
+
 
 
 

@@ -252,6 +252,11 @@ export class AppComponent {
     audio.load();
     audio.play();
   }
+
+  showmypage()
+  {
+    window.location.href = 'https://hemanthsagar.github.io/';
+  }
   
   
 }
