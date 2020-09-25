@@ -1,0 +1,41 @@
+
+.content { 
+    padding: 90px; 
+  }
+  .content1 { 
+    padding: 60px; 
+  }
+  .content2 { 
+    padding: 0px;
+    position: -ms-page;
+  }
+.content > mat-card { 
+  width: 130px; 
+  position: absolute;
+}
+
+.mat-icon{
+    height:48px !important;
+    width:48px !important;
+    font-size:48px !important;
+}
+
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #F38523;
+  }
+  
+  
