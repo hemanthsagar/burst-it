@@ -64,7 +64,7 @@ export class AppComponent {
     
     if(this.buttonstate.localeCompare( "start")===0)
     {
-      this.thisintervel = setInterval(()=> { this.startorstop1() }, 2 * 600);
+      this.thisintervel = setInterval(()=> { this.startorstop1() }, 2 * 500);
       this.buttonstate="stop";
     }
     else
@@ -89,7 +89,9 @@ export class AppComponent {
   {
     if(this.score==1 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
         this.playburstAudio();
+        this.image1="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -106,7 +108,9 @@ export class AppComponent {
   {
     if(this.score==2 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image2="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -123,7 +127,9 @@ export class AppComponent {
   {
     if(this.score==3 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image3="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -140,7 +146,9 @@ export class AppComponent {
   {
     if(this.score==4 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image4="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -157,7 +165,9 @@ export class AppComponent {
   {
     if(this.score==5 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image5="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -174,7 +184,9 @@ export class AppComponent {
   {
     if(this.score==6 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image6="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -191,7 +203,9 @@ export class AppComponent {
   {
     if(this.score==7 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image7="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -208,7 +222,9 @@ export class AppComponent {
   {
     if(this.score==8 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
+      this.image8="bursting";
         this.score1=this.score1+5;
         if(this.score1>this.userscore)
             this.userscore=this.score1;
@@ -225,8 +241,10 @@ export class AppComponent {
   {
     if(this.score==9 && this.buttonstate.localeCompare( "stop")===0)
     {
+      this.score=0;
       this.playburstAudio();
         this.score1=this.score1+5;
+        this.image9="bursting";
         if(this.score1>this.userscore)
             this.userscore=this.score1;
     }
